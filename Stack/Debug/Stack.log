@@ -1,0 +1,48 @@
+﻿Построение начато 21.12.2015 19:55:08.
+     1>Проект "c:\my documents\visual studio 2010\Projects\Stack\Stack\Stack.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\Stack.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Stack.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt Stack.cpp TParser.cpp /clr:nostdlib 
+         Stack.cpp
+     1>Stack.cpp(2): warning C4005: __CLR_VER: изменение макроопределения
+                 аргументы командной строки:  см. предыдущее определение "__CLR_VER"
+     1>Stack.cpp(2): warning C4651: параметр "/D__CLR_VER=40601038" указан для предкомпилированного заголовка, но не для текущей компиляции
+     1>c:\my documents\visual studio 2010\projects\stack\stack\TParser.h(18): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): см. объявление "strcpy"
+     1>Stack.cpp(23): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304): см. объявление "scanf"
+     1>Stack.cpp(35): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(277): см. объявление "gets"
+     1>Stack.cpp(48): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(277): см. объявление "gets"
+         TParser.cpp
+     1>TParser.cpp(1): warning C4005: __CLR_VER: изменение макроопределения
+                 аргументы командной строки:  см. предыдущее определение "__CLR_VER"
+     1>TParser.cpp(1): warning C4651: параметр "/D__CLR_VER=40601038" указан для предкомпилированного заголовка, но не для текущей компиляции
+     1>c:\my documents\visual studio 2010\projects\stack\stack\TParser.h(18): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): см. объявление "strcpy"
+         Создание кода...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /analyze- /errorReport:prompt "C:\Users\Давлат\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       ResourceCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\my documents\visual studio 2010\Projects\Stack\Debug\Stack.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\Stack.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\my documents\visual studio 2010\Projects\Stack\Debug\Stack.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
+         Debug\AssemblyInfo.obj
+         Debug\Stack.obj
+         Debug\stdafx.obj
+         Debug\TParser.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         Stack.vcxproj -> c:\my documents\visual studio 2010\Projects\Stack\Debug\Stack.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"c:\my documents\visual studio 2010\Projects\Stack\Debug\Stack.exe;#1" /manifest Debug\Stack.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "Debug\Stack.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Stack.lastbuildstate".
+     1>Построение проекта "c:\my documents\visual studio 2010\Projects\Stack\Stack\Stack.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:02.67
